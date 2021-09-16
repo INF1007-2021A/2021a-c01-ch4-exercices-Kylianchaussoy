@@ -1,25 +1,10 @@
 test_get_number_of_char (__main__.TestExercice) ... ok
 test_get_number_of_words (__main__.TestExercice) ... ok
-test_pair (__main__.TestExercice) ... FAIL
+test_pair (__main__.TestExercice) ... ok
 test_remove_third_char (__main__.TestExercice) ... ok
 test_replace_char (__main__.TestExercice) ... ok
 
-======================================================================
-FAIL: test_pair (__main__.TestExercice)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 18, in test_pair
-    self.assertListEqual(
-AssertionError: Lists differ: ['hey jad!', None, None] != [True, False, False]
+Ran 5 tests in 0.000s
 
-First differing element 0:
-'hey jad!'
-True
-
-- ['hey jad!', None, None]
-+ [True, False, False] : Mauvaise identification de la parité de la longueur de la chaine
-
-----------------------------------------------------------------------
-Ran 5 tests in 0.001s
-
-FAILED (failures=1)
+OK
